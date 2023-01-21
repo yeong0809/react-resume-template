@@ -29,6 +29,8 @@ const nextConfig = {
   trailingSlash: false,
   images: {
     domains: ['images.unsplash.com', 'source.unsplash.com'],
+    loader: 'akamai',
+    path: '',
   },
 };
 
