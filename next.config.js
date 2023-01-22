@@ -33,7 +33,7 @@ const nextConfig = {
     path: '',
   },
   basePath: '/react-resume-template',
-  assetPrefix: '/react-resume-template',
+  assetPrefix: '/',
 };
 
 module.exports = nextConfig;
