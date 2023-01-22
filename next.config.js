@@ -32,7 +32,7 @@ const nextConfig = {
     loader: 'akamai',
     path: '',
   },
-  basePath: '/',
+  basePath: '',
   assetPrefix: '/react-resume-template',
 };
 
