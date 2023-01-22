@@ -19,7 +19,7 @@ const Hero: FC = memo(() => {
           layout="fill"
           objectFit="cover"
           placeholder="blur"
-          priority={false}
+          priority
           src={imageSrc}
         />
         <div className="z-10  max-w-screen-lg px-4 lg:px-0">

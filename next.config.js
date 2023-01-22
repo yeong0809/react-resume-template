@@ -28,10 +28,11 @@ const nextConfig = {
   swcMinify: true,
   trailingSlash: false,
   images: {
+    domains: ['images.unsplash.com', 'source.unsplash.com'],
     loader: 'akamai',
     path: '',
   },
-  basePath: '',
+  basePath: '/react-resume-template',
   assetPrefix: '/react-resume-template',
 };
 
