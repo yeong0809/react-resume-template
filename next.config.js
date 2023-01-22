@@ -32,8 +32,8 @@ const nextConfig = {
     loader: 'akamai',
     path: '',
   },
-  basePath: '/react-resume-template',
-  assetPrefix: '/',
+  basePath: '/',
+  assetPrefix: '/react-resume-template',
 };
 
 module.exports = nextConfig;
