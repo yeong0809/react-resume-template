@@ -30,7 +30,7 @@ const nextConfig = {
   images: {
     domains: ['images.unsplash.com', 'source.unsplash.com'],
     loader: 'akamai',
-    path: '',
+    path: '/react-resume-template',
   },
   basePath: '/react-resume-template',
   assetPrefix: '/react-resume-template',
