@@ -6,7 +6,7 @@ module.exports = {
     return {
       loc: path,
       changefreq: config.changefreq,
-      priority: path === '/' ? 1 : config.priority,
+      priority: 0,
       lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
     };
   },
